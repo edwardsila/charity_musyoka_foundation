@@ -2,8 +2,8 @@ const express = require('express')
 const router = express.Router()
 const contactController = require('../controllers/contactController')
 
-// Create a contact message
-router.post('/', contactController.createContact)
+// Create a contact message with validation
+router.post('/', contactController.validateContact, contactController.createContact)
 
 // Get all contacts
 router.get('/', contactController.getAllContacts)

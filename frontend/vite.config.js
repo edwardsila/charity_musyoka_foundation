@@ -12,5 +12,24 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
+  },
+  build: {
+    target: 'es2020',
+    minify: 'terser',
+    cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor': ['react', 'react-dom'],
+        }
+      }
+    },
+    sourcemap: false, // Disable in production
+    outDir: 'dist',
+    assetsDir: 'assets'
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom']
   }
 })
+

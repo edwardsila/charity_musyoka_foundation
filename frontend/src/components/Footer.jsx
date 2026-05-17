@@ -1,6 +1,18 @@
 import '../styles/Footer.css'
 
 export default function Footer() {
+  const whatsappNumber = '254721831045'
+
+  const handleSocialClick = (e) => {
+    e.preventDefault()
+  }
+
+  const handleWhatsAppClick = () => {
+    const message = "Hi, I would like to get in touch with Charity Musyoka Foundation."
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+    window.open(url, '_blank')
+  }
+
   return (
     <footer className="footer" id="contact">
       <div className="footer-container">
@@ -21,18 +33,29 @@ export default function Footer() {
 
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p>📞 Director/Assistant: [phone number]</p>
-          <p>📧 Email: contact@musyokafoundation.org</p>
+          <p>📱 WhatsApp: <button className="contact-whatsapp-link" onClick={handleWhatsAppClick}>+254 721 831045</button></p>
           <p>📍 Office Location: [location]</p>
         </div>
 
         <div className="footer-section">
           <h4>Follow Us</h4>
           <div className="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-            <a href="#">LinkedIn</a>
+            <a href="#" className="social-link facebook" onClick={handleSocialClick}>
+              <span className="social-tooltip">Coming Soon</span>
+              Facebook
+            </a>
+            <a href="#" className="social-link twitter" onClick={handleSocialClick}>
+              <span className="social-tooltip">Coming Soon</span>
+              Twitter
+            </a>
+            <a href="#" className="social-link instagram" onClick={handleSocialClick}>
+              <span className="social-tooltip">Coming Soon</span>
+              Instagram
+            </a>
+            <a href="#" className="social-link linkedin" onClick={handleSocialClick}>
+              <span className="social-tooltip">Coming Soon</span>
+              LinkedIn
+            </a>
           </div>
         </div>
       </div>

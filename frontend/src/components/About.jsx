@@ -4,9 +4,9 @@ export default function About() {
   return (
     <section className="about" id="about">
       <div className="about-container">
-        <h2>About Musyoka Foundation</h2>
+        <h2>About Charity Musyoka Foundation</h2>
         <p className="about-intro">
-          The Musyoka Foundation is dedicated to creating an inclusive, empowered, and self-reliant community. 
+          The Charity Musyoka Foundation is dedicated to creating an inclusive, empowered, and self-reliant community. 
           We work with persons with disabilities, marginalized groups, youth, and women to provide equal opportunities 
           for them to thrive with dignity and purpose.
         </p>
