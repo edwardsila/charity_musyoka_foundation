@@ -4,7 +4,7 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      quote: "Through Charity Musyoka foundation in conjuction with county government of kitui, we acquired tents and chairs which we hire out and earn as PHD group.",
+      quote: "Through Charity Musyoka foundation in conjuction with county government of kitui, we acquired tents and chairs which we hire out and earn as PWD group.",
       author: "KUDP group Matinyani",
       role: "Support group"
     },
