@@ -34,7 +34,7 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Contact Info</h4>
           <p>📱 WhatsApp: <button className="contact-whatsapp-link" onClick={handleWhatsAppClick}>+254 721 831045</button></p>
-          <p>📍 Office Location: Kitui</p>
+          <p>📍 Office Location: Kitui town, mukuti street zein building plot no.100</p>
         </div>
 
         <div className="footer-section">
