@@ -4,26 +4,26 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      quote: "This foundation changed my life. I went from being unemployed to having a stable job.",
-      author: "James Mwangi",
-      role: "Skills Training Beneficiary"
+      quote: "Through Charity Musyoka foundation in conjuction with county government of kitui, we acquired tents and chairs which we hire out and earn as PHD group.",
+      author: "KUDP group Matinyani",
+      role: "Support group"
     },
     {
       id: 2,
-      quote: "My child received the best education support. Thank you Musyoka Foundation!",
-      author: "Mary Kipchoge",
+      quote: "My child with albinism received sunscreen lotion and a cap. Thank you Musyoka Foundation!",
+      author: "Mary",
       role: "Parent"
     },
     {
       id: 3,
-      quote: "The assistive devices provided have given me independence I never thought possible.",
-      author: "David Kiplagat",
-      role: "PWD Beneficiary"
+      quote: "Charity Musyoka Foundation helped me get an artificial limp. Now im independent.",
+      author: "Charity Kalumu",
+      role: "Member"
     },
     {
       id: 4,
-      quote: "Empowered women, empowered community. This foundation truly lives its mission.",
-      author: "Grace Omondi",
+      quote: "Through charity musyoka foundation in conjuction with county government of Kitui,they donated Tents and Chairs to our PWD group.",
+      author: "Monicah Charles",
       role: "Women's Program Participant"
     }
   ]
