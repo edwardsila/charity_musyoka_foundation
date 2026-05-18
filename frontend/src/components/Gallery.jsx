@@ -4,9 +4,9 @@ export default function Gallery() {
   const images = [
     { id: 1, src: '/assets/images/gallery/community-event-1.jpg', alt: 'Community event 1', title: 'Community Outreach' },
     { id: 2, src: '/assets/images/gallery/skills-training.jpg', alt: 'Training program', title: 'Tents donation to a PWD group' },
-    { id: 3, src: '/assets/images/gallery/medical-camp.jpg', alt: 'Healthcare camp', title: 'PWD awwareness forum at KATUTU' },
+    { id: 3, src: '/assets/images/gallery/medical-camp.jpg', alt: 'Healthcare camp', title: 'PWD awareness forum at KATUTU' },
     { id: 4, src: '/assets/images/gallery/youth-programs.jpg', alt: 'Youth gathering', title: 'Provision of assistive devices' },
-    { id: 5, src: '/assets/images/gallery/women-empowerment.jpg', alt: 'Women empowerment', title: 'Sunscreen donation to a child with albino' },
+    { id: 5, src: '/assets/images/gallery/women-empowerment.jpg', alt: 'Women empowerment', title: 'Sunscreen donation to a child with albinism' },
     { id: 6, src: '/assets/images/gallery/community-visit.jpg', alt: 'Community visit', title: 'Partnership with SHREE NAYNAT MAHAJAN to provide artificial limbs.' }
   ]
 

@@ -3,9 +3,7 @@ import '../styles/Footer.css'
 export default function Footer() {
   const whatsappNumber = '254721831045'
 
-  const handleSocialClick = (e) => {
-    e.preventDefault()
-  }
+
 
   const handleWhatsAppClick = () => {
     const message = "Hi, I would like to get in touch with Charity Musyoka Foundation."
@@ -40,19 +38,17 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Follow Us</h4>
           <div className="social-links">
-            <a href="#" className="social-link facebook" onClick={handleSocialClick}>
-              <span className="social-tooltip">Coming Soon</span>
+            <a href="https://www.facebook.com/share/1PDYCjtFpw/?mibextid=wwXIfr" className="social-link facebook" target="_blank" rel="noopener noreferrer">
               Facebook
             </a>
-            <a href="#" className="social-link twitter" onClick={handleSocialClick}>
-              <span className="social-tooltip">Coming Soon</span>
+            <a href="https://x.com/CMFKenya" className="social-link twitter" target="_blank" rel="noopener noreferrer">
               Twitter
             </a>
-            <a href="#" className="social-link instagram" onClick={handleSocialClick}>
+            <a href="#" className="social-link instagram">
               <span className="social-tooltip">Coming Soon</span>
               Instagram
             </a>
-            <a href="#" className="social-link linkedin" onClick={handleSocialClick}>
+            <a href="#" className="social-link linkedin">
               <span className="social-tooltip">Coming Soon</span>
               LinkedIn
             </a>
