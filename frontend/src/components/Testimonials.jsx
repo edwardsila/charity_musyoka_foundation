@@ -18,7 +18,7 @@ export default function Testimonials() {
       id: 3,
       quote: "Charity Musyoka Foundation helped me get an artificial limp. Now im independent.",
       author: "Charity Kalumu",
-      role: "Member"
+      role: "Beneficiary"
     },
     {
       id: 4,
